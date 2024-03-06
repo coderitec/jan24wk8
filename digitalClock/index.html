@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/function.css">
+    <title>digital clock</title>
+</head>
+<body>
+    <main class="h-screen bg-gradient-to-r from-green-600  from-50% to-red-700 to-50% flex flex-col items-center justify-center">
+
+        <section>
+            <h1 class="uppercase font-bold text-white text-4xl tracking-[20px]">Franc digital clock</h1>
+        </section>
+        <section class="grid grid-cols-5 gap-[50px] py-10">
+            <div class="flex flex-col w-[100px]">
+                <span class="h-[80px] bg-blue-600 text-white flex items-center justify-center text-3xl"></span>
+                <span class="h-[40px] bg-slate-950 text-white text-center">Hour</span>
+            </div>
+            <div class="flex flex-col w-[100px]">
+                <span class="h-[80px] bg-blue-600 text-white flex items-center justify-center text-3xl"></span>
+                <span class="h-[40px] bg-slate-950 text-white text-center">Minutes</span>
+            </div>
+            <div class="flex flex-col w-[100px]">
+                <span class="h-[80px] bg-blue-600 text-white flex items-center justify-center text-3xl"></span>
+                <span class="h-[40px] bg-slate-950 text-white text-center">Seconds</span>
+            </div>
+            <div class="flex flex-col w-[100px]">
+                <span class="h-[80px] bg-blue-600 text-white flex items-center justify-center text-3xl"></span>
+                <span class="h-[40px] bg-slate-950 text-white text-center">Milliseconds</span>
+            </div>
+            <div class="flex flex-col w-[100px]">
+                <span class="h-[40px] bg-orange-950 text-white text-center mt-[80px]"></span>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./digit.js"></script>
+</html>

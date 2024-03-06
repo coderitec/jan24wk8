@@ -1,0 +1,23 @@
+{
+  "name": "week8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aramide.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./condition.css -o ./styles/function.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderitec/jan24wk8.git"
+  },
+  "author": "Franc Enemuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderitec/jan24wk8/issues"
+  },
+  "homepage": "https://github.com/coderitec/jan24wk8#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
